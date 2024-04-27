@@ -1,0 +1,3799 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-04-22T12:27:52.124Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "'Phone'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-04-22T12:28:16.775Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "'Smartphone'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-04-22T12:30:54.098Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Iphone 15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-04-22T12:32:16.498Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<ImageFieldFile: products/product_1/26509.5002x.jpeg>",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-04-22T12:33:17.237Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "'Bob': 'Iphone 15'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-04-22T12:33:54.936Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Sale object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-04-22T12:34:10.155Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "'Iphone'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-04-22T14:11:56.039Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "<ImageFieldFile: products/product_1/26509.5002x.jpeg>",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-04-22T14:14:51.366Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "images of Phone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-04-22T14:15:03.493Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "images of Smartphone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-04-22T15:44:03.203Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Iphone 15",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-04-22T15:44:19.066Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "'Phone'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-04-22T15:44:30.668Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "'Smartphone'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-04-22T19:48:00.236Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Sale object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"DateFrom\", \"DateTo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-04-22T20:05:57.837Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "'PC'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-04-22T20:06:01.816Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "'Laptop'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-04-22T20:08:09.301Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "MacBook Air 13",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-04-22T20:09:53.768Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "'PC'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-04-22T20:11:37.224Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "'Laptop'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-04-22T20:15:06.974Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "ProductSpecification object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-04-22T20:17:51.131Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "'Laptop'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-04-22T21:10:51.933Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "/products/product_None/11.jpeg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-04-22T21:18:44.071Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "/products/product_None/macbook_hkCy66v.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-04-22T21:22:05.585Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "/products/product_None/iphone2.jpeg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-04-23T09:17:17.330Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Order object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-04-23T12:04:15.774Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "'Phone'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Favourite\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-04-23T12:06:12.476Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "'Laptop'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Favourite\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-04-23T12:06:20.033Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "'PC'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Favourite\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-04-23T12:06:58.455Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "'Smartphone'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Favourite\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-04-23T12:07:02.925Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "'Phone'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Favourite\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-04-23T12:15:21.493Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "Lola",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-04-23T12:16:17.481Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "Profile object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-04-23T12:17:01.903Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Profile object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-04-23T12:17:21.905Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "Profile object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-04-23T12:19:11.942Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Profile object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-04-23T12:19:18.879Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Profile object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-04-23T12:19:46.929Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Profile object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-04-23T12:20:01.096Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Profile object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-04-23T12:52:42.345Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "'Smartphone'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-04-23T14:02:08.632Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Phone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-04-23T14:02:31.533Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "Smartphone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-04-23T14:02:47.115Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "PC",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-04-23T14:02:56.089Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "4",
+        "object_repr": "Laptop",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-04-23T15:25:58.030Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "'TV'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-04-23T15:26:12.296Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "'Smart TV'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-04-23T15:30:16.967Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "5",
+        "object_repr": "categories/category_5/Tv-cat_S5rnjGq.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-04-23T15:30:36.983Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "6",
+        "object_repr": "categories/category_5/subcategory_6/smartTV.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-04-23T15:33:26.619Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Redmi Laptop",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-04-23T15:33:57.537Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "products/product_None/laptop2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-04-23T15:35:31.394Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "TV 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2024-04-23T15:36:18.046Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Samsung TV",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2024-04-23T15:36:47.575Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "products/product_None/tv12.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2024-04-23T15:37:26.385Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "products/product_None/tv1.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2024-04-23T15:37:55.275Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "products/product_None/tv2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2024-04-23T15:38:08.233Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "products/product_None/tv22.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2024-04-23T15:38:44.685Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "products/product_None/mac2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2024-04-23T15:39:40.697Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "Smartphone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2024-04-23T15:39:47.985Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Samsung TV",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Limited edition\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2024-04-23T15:40:17.029Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "10",
+        "object_repr": "products/product_None/p2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2024-04-23T15:41:53.075Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "'TV'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Favourite\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2024-04-23T15:41:58.775Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "6",
+        "object_repr": "'Smart TV'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Favourite\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2024-04-23T15:43:45.050Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "ProductSpecification object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2024-04-23T15:44:12.547Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "3",
+        "object_repr": "ProductSpecification object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2024-04-23T15:46:16.390Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "4",
+        "object_repr": "ProductSpecification object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2024-04-23T15:46:46.651Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "5",
+        "object_repr": "ProductSpecification object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2024-04-23T15:47:02.365Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "6",
+        "object_repr": "ProductSpecification object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2024-04-23T15:47:59.535Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "7",
+        "object_repr": "ProductSpecification object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2024-04-23T15:48:57.581Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "8",
+        "object_repr": "ProductSpecification object (8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2024-04-23T15:50:00.659Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "'Laptop'",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2024-04-23T15:50:24.122Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "'Smartphone'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2024-04-23T15:50:39.504Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "'Smart TV'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2024-04-23T15:50:52.604Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "'Android'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2024-04-23T15:51:11.054Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "'IOS'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2024-04-23T15:51:38.873Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Sale object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2024-04-23T16:02:18.473Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "7",
+        "object_repr": "'Gaming PC'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2024-04-23T16:03:23.036Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Gaming PC Monster",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2024-04-23T16:04:12.749Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "8",
+        "object_repr": "Gaming PC Alienware",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2024-04-23T16:05:03.392Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "9",
+        "object_repr": "Gaming PC",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2024-04-23T16:05:39.498Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "11",
+        "object_repr": "products/product_None/pc3-2.jpeg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2024-04-23T16:05:53.740Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "12",
+        "object_repr": "products/product_None/pc3.jpeg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2024-04-23T16:06:05.487Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "13",
+        "object_repr": "products/product_None/pc3.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2024-04-23T16:06:22.024Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "14",
+        "object_repr": "products/product_None/pc2.jpeg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2024-04-23T16:06:47.506Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "15",
+        "object_repr": "products/product_None/gaming2.png",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2024-04-23T16:07:03.519Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "16",
+        "object_repr": "products/product_None/gaming.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2024-04-23T16:07:19.265Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "'Gaming'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2024-04-23T16:07:29.116Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "'PC'",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2024-04-23T16:09:16.714Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "7",
+        "object_repr": "categories/category_3/subcategory_7/cat_gaming.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2024-04-23T16:10:55.480Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "9",
+        "object_repr": "ProductSpecification object (9)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2024-04-23T16:11:22.454Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "10",
+        "object_repr": "ProductSpecification object (10)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2024-04-23T16:11:41.776Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "11",
+        "object_repr": "ProductSpecification object (11)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2024-04-23T16:11:54.005Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "12",
+        "object_repr": "ProductSpecification object (12)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2024-04-25T09:00:46.940Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Profile object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2024-04-25T09:01:09.841Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "Lola",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2024-04-25T09:15:41.738Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "7",
+        "object_repr": "userdelete",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2024-04-25T09:15:49.625Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "7",
+        "object_repr": "userdelete",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.195Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "products/product_None/macbook_hkCy66v.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.216Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "products/product_None/iphone2.jpeg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.227Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "products/product_None/laptop2.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.236Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "products/product_None/tv12.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.252Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "products/product_None/tv1.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.264Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "products/product_None/tv2.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.280Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "products/product_None/tv22.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.292Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "products/product_None/mac2.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.315Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "10",
+        "object_repr": "products/product_None/p2.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.327Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "11",
+        "object_repr": "products/product_None/pc3-2.jpeg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.339Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "12",
+        "object_repr": "products/product_None/pc3.jpeg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.352Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "13",
+        "object_repr": "products/product_None/pc3.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.365Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "14",
+        "object_repr": "products/product_None/pc2.jpeg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.378Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "15",
+        "object_repr": "products/product_None/gaming2.png",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2024-04-25T14:34:29.389Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "16",
+        "object_repr": "products/product_None/gaming.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2024-04-25T14:35:09.332Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "17",
+        "object_repr": "products/product_None/iphone2.jpeg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2024-04-25T14:36:17.053Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "18",
+        "object_repr": "products/product_None/macbook.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2024-04-25T14:36:35.150Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "products/product_None/mac2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2024-04-25T14:37:28.502Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "20",
+        "object_repr": "products/product_None/laptop2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2024-04-25T14:37:53.253Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "21",
+        "object_repr": "products/product_None/tv12.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2024-04-25T14:38:09.208Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "22",
+        "object_repr": "products/product_None/tv1.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2024-04-25T14:39:11.396Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "23",
+        "object_repr": "products/product_None/tv2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2024-04-25T14:39:42.297Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "24",
+        "object_repr": "products/product_None/tv22.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2024-04-25T14:40:13.512Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "25",
+        "object_repr": "products/product_None/p2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2024-04-25T14:40:50.062Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "26",
+        "object_repr": "products/product_None/pc2.jpeg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2024-04-25T14:41:09.222Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "27",
+        "object_repr": "products/product_None/gaming2.png",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2024-04-25T14:41:24.371Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "28",
+        "object_repr": "products/product_None/gaming.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.417Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "17",
+        "object_repr": "products/product_None/iphone2.jpeg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.428Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "18",
+        "object_repr": "products/product_None/macbook.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.441Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "19",
+        "object_repr": "products/product_None/mac2.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.453Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "20",
+        "object_repr": "products/product_None/laptop2.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.467Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "21",
+        "object_repr": "products/product_None/tv12.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.477Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "22",
+        "object_repr": "products/product_None/tv1.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.487Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "23",
+        "object_repr": "products/product_None/tv2.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.500Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "24",
+        "object_repr": "products/product_None/tv22.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.508Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "25",
+        "object_repr": "products/product_None/p2.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.523Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "26",
+        "object_repr": "products/product_None/pc2.jpeg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.535Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "27",
+        "object_repr": "products/product_None/gaming2.png",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2024-04-25T14:45:08.562Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "28",
+        "object_repr": "products/product_None/gaming.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2024-04-25T14:45:38.410Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "29",
+        "object_repr": "products/product_1/iphone2.jpeg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2024-04-25T14:46:38.415Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "30",
+        "object_repr": "products/product_2/macbook.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2024-04-25T14:46:56.175Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "31",
+        "object_repr": "products/product_2/mac2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2024-04-25T14:47:17.218Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "32",
+        "object_repr": "products/product_3/laptop2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2024-04-25T14:47:31.798Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "33",
+        "object_repr": "products/product_4/tv12.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2024-04-25T14:47:44.775Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "34",
+        "object_repr": "products/product_4/tv1.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2024-04-25T14:48:09.824Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "35",
+        "object_repr": "products/product_5/tv2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2024-04-25T14:48:20.525Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "36",
+        "object_repr": "products/product_5/tv22.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2024-04-25T14:48:39.311Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "37",
+        "object_repr": "products/product_6/p2.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2024-04-25T14:49:04.761Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "38",
+        "object_repr": "products/product_7/gaming2.png",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2024-04-25T14:49:19.375Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "39",
+        "object_repr": "products/product_7/gaming.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2024-04-25T14:50:26.184Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "40",
+        "object_repr": "products/product_9/PC.jpeg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2024-04-25T15:01:10.231Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "41",
+        "object_repr": "products/product_8/vlpoO0NEH5E__копия.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2024-04-25T15:01:30.788Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "42",
+        "object_repr": "products/product_8/N7TkBrBHPts.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2024-04-25T15:01:59.574Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "43",
+        "object_repr": "products/product_8/vlpoO0NEH5E.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2024-04-25T15:02:34.222Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "44",
+        "object_repr": "products/product_8/pYvBCYqlHBg.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2024-04-25T15:10:56.842Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "7",
+        "object_repr": "categories/category_3/subcategory_7/cat_gaming.jpg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2024-04-25T15:11:06.955Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "8",
+        "object_repr": "categories/category_3/subcategory_7/123131.jpg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2024-04-26T13:48:44.079Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "products/product_1/11_6CN7F9t.jpeg",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add Tag",
+        "content_type": 7,
+        "codename": "add_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change Tag",
+        "content_type": 7,
+        "codename": "change_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete Tag",
+        "content_type": 7,
+        "codename": "delete_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view Tag",
+        "content_type": 7,
+        "codename": "view_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Sale",
+        "content_type": 8,
+        "codename": "add_sale"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Sale",
+        "content_type": 8,
+        "codename": "change_sale"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Sale",
+        "content_type": 8,
+        "codename": "delete_sale"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Sale",
+        "content_type": 8,
+        "codename": "view_sale"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add Review",
+        "content_type": 9,
+        "codename": "add_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change Review",
+        "content_type": 9,
+        "codename": "change_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete Review",
+        "content_type": 9,
+        "codename": "delete_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view Review",
+        "content_type": 9,
+        "codename": "view_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Product",
+        "content_type": 10,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Product",
+        "content_type": 10,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Product",
+        "content_type": 10,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view Product",
+        "content_type": 10,
+        "codename": "view_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add Product image",
+        "content_type": 11,
+        "codename": "add_productimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change Product image",
+        "content_type": 11,
+        "codename": "change_productimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete Product image",
+        "content_type": 11,
+        "codename": "delete_productimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view Product image",
+        "content_type": 11,
+        "codename": "view_productimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add Category",
+        "content_type": 12,
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change Category",
+        "content_type": 12,
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete Category",
+        "content_type": 12,
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view Category",
+        "content_type": 12,
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add profile",
+        "content_type": 13,
+        "codename": "add_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change profile",
+        "content_type": 13,
+        "codename": "change_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete profile",
+        "content_type": 13,
+        "codename": "delete_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view profile",
+        "content_type": 13,
+        "codename": "view_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add Category image",
+        "content_type": 14,
+        "codename": "add_categoryimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change Category image",
+        "content_type": 14,
+        "codename": "change_categoryimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete Category image",
+        "content_type": 14,
+        "codename": "delete_categoryimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view Category image",
+        "content_type": 14,
+        "codename": "view_categoryimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add Product specification",
+        "content_type": 15,
+        "codename": "add_productspecification"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change Product specification",
+        "content_type": 15,
+        "codename": "change_productspecification"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete Product specification",
+        "content_type": 15,
+        "codename": "delete_productspecification"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view Product specification",
+        "content_type": 15,
+        "codename": "view_productspecification"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add Order",
+        "content_type": 16,
+        "codename": "add_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change Order",
+        "content_type": 16,
+        "codename": "change_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete Order",
+        "content_type": 16,
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view Order",
+        "content_type": 16,
+        "codename": "view_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add count products",
+        "content_type": 17,
+        "codename": "add_countproducts"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change count products",
+        "content_type": 17,
+        "codename": "change_countproducts"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete count products",
+        "content_type": 17,
+        "codename": "delete_countproducts"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view count products",
+        "content_type": 17,
+        "codename": "view_countproducts"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$XGR0XBAp5BDL4TmazKajpG$F69e3I/GS2hFz7m2UlzwnH1vrq9FtXB6hcNNT48oQM0=",
+        "last_login": "2024-04-25T09:20:56.051Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-04-21T09:35:07.773Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$6S8fDUaZzwJp1OUDGgVyrQ$YIfK0hw5uNAamOmiQm1ol0xnmFRtyX6JWZWhBbrprDo=",
+        "last_login": "2024-04-26T17:15:02.982Z",
+        "is_superuser": false,
+        "username": "sam",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-25T08:58:11.784Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$nlmuDc4RUQr70cvmoABf6Q$DMg/woSYIQdzE0MhePoDRz0eZnn8usYehEXsFUy5PO8=",
+        "last_login": "2024-04-25T09:09:51.283Z",
+        "is_superuser": false,
+        "username": "Lola",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-25T09:09:50.285Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$EeQHmEd0E4OQRVKw7t6Qo2$H4Y/o7U9HJD0i3EF9pexirSGGVmeKfbqVT5W/pDwqcs=",
+        "last_login": "2024-04-25T09:11:10.348Z",
+        "is_superuser": false,
+        "username": "john",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-25T09:11:09.302Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$mDFXyjVYbmEYrHn9e7kYog$F4QzE4WmkxF8hCVUJlkq7QxQ2aR8/4Y5ROZDuVjN9CM=",
+        "last_login": "2024-04-25T09:12:26.685Z",
+        "is_superuser": false,
+        "username": "nick",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-25T09:12:25.595Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$dN3hTLAL7vR9Sy1eJDDbEP$W9uWF9PMXu/d13STIpdCtbsRBtYuoxXH6QIEGftdp80=",
+        "last_login": "2024-04-25T09:17:09.245Z",
+        "is_superuser": false,
+        "username": "test",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-04-25T09:17:08.198Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "products",
+        "model": "tag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "products",
+        "model": "sale"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "products",
+        "model": "review"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "products",
+        "model": "product"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "products",
+        "model": "productimage"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "products",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "profiles",
+        "model": "profile"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "products",
+        "model": "categoryimage"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "products",
+        "model": "productspecification"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "orders",
+        "model": "order"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "orders",
+        "model": "countproducts"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7oq7ud6b93qvopmp2sh4hdkdxls75x88",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEwtgy4dN9vIMNjpGogKe3K-O_apAvd3nPOfQlP21r81vPi5yQuQovT7xYoPnLdQbpTvTUZW12XOchdkQftcmopP6-H-3dQqJdvzTYAk9MAozUmOlAKQ-RkjSUcLBiXeEAASzniGRRoh8iokIFxzE68P8tlNwg:1ryTcT:sG-M_W_tbB3tEonj83_9bjld8pdeUnIW2m6VzU7Kndw",
+        "expire_date": "2024-05-05T09:36:21.984Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "93qgzfev5eep6md8wc4q7jw9m3b37pc5",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEwtgy4dN9vIMNjpGogKe3K-O_apAvd3nPOfQlP21r81vPi5yQuQovT7xYoPnLdQbpTvTUZW12XOchdkQftcmopP6-H-3dQqJdvzTYAk9MAozUmOlAKQ-RkjSUcLBiXeEAASzniGRRoh8iokIFxzE68P8tlNwg:1ryTjZ:8a-hao4w20vnpTI2GAmhra0M0xIr2_LvSUJtvGnvaAY",
+        "expire_date": "2024-05-05T09:43:41.737Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "cz9115x576ipbex7pqf5lshy8pyavy7s",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEwtgy4dN9vIMNjpGogKe3K-O_apAvd3nPOfQlP21r81vPi5yQuQovT7xYoPnLdQbpTvTUZW12XOchdkQftcmopP6-H-3dQqJdvzTYAk9MAozUmOlAKQ-RkjSUcLBiXeEAASzniGRRoh8iokIFxzE68P8tlNwg:1rz0tD:M0wohR3H8iKxptqbv3wkWhE0IdKBYQNI7Q8GjPHU4VI",
+        "expire_date": "2024-05-06T21:07:51.633Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "eunsfdm06jfl0fnym68ta1kg3ui1m7oe",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEwtgy4dN9vIMNjpGogKe3K-O_apAvd3nPOfQlP21r81vPi5yQuQovT7xYoPnLdQbpTvTUZW12XOchdkQftcmopP6-H-3dQqJdvzTYAk9MAozUmOlAKQ-RkjSUcLBiXeEAASzniGRRoh8iokIFxzE68P8tlNwg:1ryTlb:D_M03s4GhNL6QERGuhsRglQKfqjPfRZPR4hYyUf-a38",
+        "expire_date": "2024-05-05T09:45:47.288Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "s0hsmienkrxqsoothgd79ffbff1wrio7",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSEwtgy4dN9vIMNjpGogKe3K-O_apAvd3nPOfQlP21r81vPi5yQuQovT7xYoPnLdQbpTvTUZW12XOchdkQftcmopP6-H-3dQqJdvzTYAk9MAozUmOlAKQ-RkjSUcLBiXeEAASzniGRRoh8iokIFxzE68P8tlNwg:1rz1ix:RsGFkptIC0IT2VrWt48vgqtOUu0fQ3C34c2lmbJW-rw",
+        "expire_date": "2024-05-06T22:01:19.329Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "so75c0oz9uqx47c07gcbzt09mokh6ivr",
+    "fields": {
+        "session_data": ".eJxVjEEOgyAQRe_CuiEIwqDL7nsGwjBjsW0wEV0Z715NXLTb997_mwhxXXJYK89hJNELLW6_DGN6czkFvWJ5TjJNZZlHlGciL1vlYyL-3K_27yDHmo81WIvGgbJklHWkCTvgRiUYPIGPQGzANwPqzjgHmocD-VaphC0qJn-cpjgvot_2_QsJDzr_:1s0PD9:UpCYaGpuk4pwqy_SMSw4vRdGadM4JTgff72Qg6XI4nw",
+        "expire_date": "2024-05-10T17:18:11.808Z"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+        "title": "Phone",
+        "parent": null,
+        "favourite": false
+    }
+},
+{
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+        "title": "Smartphone",
+        "parent": 1,
+        "favourite": true
+    }
+},
+{
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+        "title": "PC",
+        "parent": null,
+        "favourite": true
+    }
+},
+{
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+        "title": "Laptop",
+        "parent": 3,
+        "favourite": true
+    }
+},
+{
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+        "title": "TV",
+        "parent": null,
+        "favourite": false
+    }
+},
+{
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+        "title": "Smart TV",
+        "parent": 5,
+        "favourite": false
+    }
+},
+{
+    "model": "products.category",
+    "pk": 7,
+    "fields": {
+        "title": "Gaming PC",
+        "parent": 3,
+        "favourite": false
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "src": "categories/category_1/ph_9yrGB9j.png"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 2,
+    "fields": {
+        "category": 2,
+        "src": "categories/category_1/subcategory_2/sm.jpeg"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 3,
+    "fields": {
+        "category": 3,
+        "src": "categories/category_3/images.jpeg"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 4,
+    "fields": {
+        "category": 4,
+        "src": "categories/category_3/subcategory_4/1213.jpg"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 5,
+    "fields": {
+        "category": 5,
+        "src": "categories/category_5/Tv-cat_S5rnjGq.jpg"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 6,
+    "fields": {
+        "category": 6,
+        "src": "categories/category_5/subcategory_6/smartTV.jpg"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 8,
+    "fields": {
+        "category": 7,
+        "src": "categories/category_3/subcategory_7/123131.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "Iphone 15",
+        "description": "New Iphone 15 Description",
+        "fullDescription": "New Iphone 15 FullDescription",
+        "price": "1000.00",
+        "count": 100,
+        "date": "2024-04-22T12:30:54.097Z",
+        "freeDelivery": true,
+        "limited_edition": true,
+        "rating": "4.50",
+        "archived": false,
+        "category": 2
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "MacBook Air 13",
+        "description": "MacBook Air 13  Description",
+        "fullDescription": "MacBook Air 13  FullDescription",
+        "price": "2000.00",
+        "count": 95,
+        "date": "2024-04-22T20:08:09.299Z",
+        "freeDelivery": true,
+        "limited_edition": false,
+        "rating": "5.00",
+        "archived": false,
+        "category": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "Redmi Laptop",
+        "description": "Redmi Laptop  Description",
+        "fullDescription": "Redmi Laptop  FullDescription",
+        "price": "1300.00",
+        "count": 54,
+        "date": "2024-04-23T15:33:26.618Z",
+        "freeDelivery": true,
+        "limited_edition": false,
+        "rating": "5.00",
+        "archived": false,
+        "category": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "TV 1",
+        "description": "TV 1 Description",
+        "fullDescription": "TV 1 FullDescription",
+        "price": "1100.00",
+        "count": 11,
+        "date": "2024-04-23T15:35:31.388Z",
+        "freeDelivery": false,
+        "limited_edition": false,
+        "rating": "5.00",
+        "archived": false,
+        "category": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "title": "Samsung TV",
+        "description": "Samsung TV Description",
+        "fullDescription": "Samsung TV FullDescription",
+        "price": "1500.00",
+        "count": 18,
+        "date": "2024-04-23T15:36:18.045Z",
+        "freeDelivery": false,
+        "limited_edition": true,
+        "rating": "5.00",
+        "archived": false,
+        "category": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "title": "Smartphone",
+        "description": "Smartphone  Description",
+        "fullDescription": "Smartphone  FullDescription",
+        "price": "600.00",
+        "count": 98,
+        "date": "2024-04-23T15:39:40.696Z",
+        "freeDelivery": true,
+        "limited_edition": false,
+        "rating": "0.00",
+        "archived": false,
+        "category": 2
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "title": "Gaming PC Monster",
+        "description": "Gaming PC Monster Description",
+        "fullDescription": "Gaming PC Monster FullDescription",
+        "price": "3000.00",
+        "count": 12,
+        "date": "2024-04-23T16:03:23.033Z",
+        "freeDelivery": false,
+        "limited_edition": true,
+        "rating": "4.00",
+        "archived": false,
+        "category": 7
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "title": "Gaming PC Alienware",
+        "description": "Gaming PC Alienware Description",
+        "fullDescription": "Gaming PC Alienware FullDescription",
+        "price": "2900.00",
+        "count": 15,
+        "date": "2024-04-23T16:04:12.748Z",
+        "freeDelivery": false,
+        "limited_edition": true,
+        "rating": "5.00",
+        "archived": false,
+        "category": 7
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "title": "Gaming PC",
+        "description": "Gaming PC Description",
+        "fullDescription": "Gaming PC FullDescription",
+        "price": "2500.00",
+        "count": 55,
+        "date": "2024-04-23T16:05:03.391Z",
+        "freeDelivery": true,
+        "limited_edition": false,
+        "rating": "5.00",
+        "archived": false,
+        "category": 7
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 1,
+    "fields": {
+        "name": "Iphone",
+        "product": 1,
+        "image": "products/product_1/11_6CN7F9t.jpeg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 29,
+    "fields": {
+        "name": "Iphone 15-2",
+        "product": 1,
+        "image": "products/product_1/iphone2.jpeg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 30,
+    "fields": {
+        "name": "MacBook-1",
+        "product": 2,
+        "image": "products/product_2/macbook.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 31,
+    "fields": {
+        "name": "MacBook-2",
+        "product": 2,
+        "image": "products/product_2/mac2.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 32,
+    "fields": {
+        "name": "Redmi Laptop 1",
+        "product": 3,
+        "image": "products/product_3/laptop2.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 33,
+    "fields": {
+        "name": "TV-1",
+        "product": 4,
+        "image": "products/product_4/tv12.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 34,
+    "fields": {
+        "name": "TV-2",
+        "product": 4,
+        "image": "products/product_4/tv1.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 35,
+    "fields": {
+        "name": "Samsung TV-1",
+        "product": 5,
+        "image": "products/product_5/tv2.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 36,
+    "fields": {
+        "name": "Samsung TV-2",
+        "product": 5,
+        "image": "products/product_5/tv22.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 37,
+    "fields": {
+        "name": "Smartphone",
+        "product": 6,
+        "image": "products/product_6/p2.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 38,
+    "fields": {
+        "name": "Monster-1",
+        "product": 7,
+        "image": "products/product_7/gaming2.png"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 39,
+    "fields": {
+        "name": "Monster-2",
+        "product": 7,
+        "image": "products/product_7/gaming.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 40,
+    "fields": {
+        "name": "PC-1",
+        "product": 9,
+        "image": "products/product_9/PC.jpeg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 41,
+    "fields": {
+        "name": "Alienware-1",
+        "product": 8,
+        "image": "products/product_8/vlpoO0NEH5E__копия.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 42,
+    "fields": {
+        "name": "Alienware-2",
+        "product": 8,
+        "image": "products/product_8/N7TkBrBHPts.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 43,
+    "fields": {
+        "name": "Alienware-3",
+        "product": 8,
+        "image": "products/product_8/vlpoO0NEH5E.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 44,
+    "fields": {
+        "name": "Alienware-4",
+        "product": 8,
+        "image": "products/product_8/pYvBCYqlHBg.jpg"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "name": "Color",
+        "value": "White"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 2,
+    "fields": {
+        "product": 5,
+        "name": "Display",
+        "value": "OLED"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 3,
+    "fields": {
+        "product": 5,
+        "name": "Color",
+        "value": "Black"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 4,
+    "fields": {
+        "product": 2,
+        "name": "CPU",
+        "value": "M3"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 5,
+    "fields": {
+        "product": 2,
+        "name": "SSD",
+        "value": "256 GB"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 6,
+    "fields": {
+        "product": 3,
+        "name": "RAM",
+        "value": "16 GB"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 7,
+    "fields": {
+        "product": 3,
+        "name": "CPU",
+        "value": "Core I3"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 8,
+    "fields": {
+        "product": 6,
+        "name": "OS",
+        "value": "Android"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 9,
+    "fields": {
+        "product": 8,
+        "name": "RAM",
+        "value": "32 GB"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 10,
+    "fields": {
+        "product": 8,
+        "name": "CPU",
+        "value": "I7"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 11,
+    "fields": {
+        "product": 7,
+        "name": "CPU",
+        "value": "I9"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 12,
+    "fields": {
+        "product": 9,
+        "name": "CPU",
+        "value": "I5"
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 1,
+    "fields": {
+        "name": "Iphone",
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 2,
+    "fields": {
+        "name": "Laptop",
+        "tags": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 3,
+    "fields": {
+        "name": "Smartphone",
+        "tags": [
+            6
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 4,
+    "fields": {
+        "name": "Smart TV",
+        "tags": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 5,
+    "fields": {
+        "name": "Android",
+        "tags": [
+            6
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 6,
+    "fields": {
+        "name": "IOS",
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 7,
+    "fields": {
+        "name": "Gaming",
+        "tags": [
+            7,
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 8,
+    "fields": {
+        "name": "PC",
+        "tags": [
+            7,
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "products.review",
+    "pk": 1,
+    "fields": {
+        "author": "Bob",
+        "email": "Bob@mail.com",
+        "text": "Nice Phone",
+        "rate": 5,
+        "date": "2024-04-22T12:33:17.236Z",
+        "product": 1
+    }
+},
+{
+    "model": "products.review",
+    "pk": 2,
+    "fields": {
+        "author": "Annoying Orange",
+        "email": "no-reply@mail.ru",
+        "text": "rewrewrwerewrwerwerewrwerwer",
+        "rate": 4,
+        "date": "2024-04-23T10:22:12.529Z",
+        "product": 1
+    }
+},
+{
+    "model": "products.review",
+    "pk": 3,
+    "fields": {
+        "author": "John",
+        "email": "John123@john.com",
+        "text": "I bought this last month.\nNothing to regret. I recommend",
+        "rate": 5,
+        "date": "2024-04-24T13:31:25.857Z",
+        "product": 2
+    }
+},
+{
+    "model": "products.review",
+    "pk": 4,
+    "fields": {
+        "author": "Ivan",
+        "email": "Ivanko1222@mail.com",
+        "text": "Nice!",
+        "rate": 5,
+        "date": "2024-04-24T13:47:56.891Z",
+        "product": 3
+    }
+},
+{
+    "model": "products.sale",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "salePrice": "900.00",
+        "dateFrom": "2024-04-22",
+        "dateTo": "2024-04-30"
+    }
+},
+{
+    "model": "products.sale",
+    "pk": 2,
+    "fields": {
+        "product": 4,
+        "salePrice": "800.00",
+        "dateFrom": "2024-04-16",
+        "dateTo": "2024-05-22"
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "fullName": "Robert",
+        "email": "qwer@qwer.com",
+        "phone": "89076521490",
+        "avatar": "users/user_1/admin.png"
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "fullName": "Samuel",
+        "email": "Samuel@email.com",
+        "phone": "89065421569",
+        "avatar": "users/user_2/boy.png"
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 5,
+    "fields": {
+        "user": 5,
+        "fullName": "Lolita",
+        "email": "Lolemail@email.com",
+        "phone": "89777777774",
+        "avatar": "users/user_5/lola.png"
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 6,
+    "fields": {
+        "user": 6,
+        "fullName": "John",
+        "email": "",
+        "phone": "",
+        "avatar": "users/user_6/adminava.jpg"
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 7,
+    "fields": {
+        "user": 7,
+        "fullName": "Nicole",
+        "email": "",
+        "phone": "",
+        "avatar": "users/user_7/nick.png"
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 8,
+    "fields": {
+        "user": 8,
+        "fullName": "Test_name",
+        "email": "",
+        "phone": "",
+        "avatar": ""
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "createdAt": "2024-04-23T09:17:17.324Z",
+        "deliveryType": "ordinary",
+        "paymentType": "online",
+        "totalCost": "900.00",
+        "status": "accepted",
+        "city": "New York",
+        "address": "Park Street 901",
+        "products": [
+            1
+        ]
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 25,
+    "fields": {
+        "user": 2,
+        "createdAt": "2024-04-26T17:15:31.640Z",
+        "deliveryType": "",
+        "paymentType": "online",
+        "totalCost": "3500.00",
+        "status": "accepted",
+        "city": "London",
+        "address": "Baker Street 221b",
+        "products": [
+            1,
+            5
+        ]
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 26,
+    "fields": {
+        "user": 2,
+        "createdAt": "2024-04-26T17:17:09.024Z",
+        "deliveryType": "",
+        "paymentType": "online",
+        "totalCost": "800.00",
+        "status": "accepted",
+        "city": "London",
+        "address": "Baker Street 221b",
+        "products": [
+            6
+        ]
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 1,
+    "fields": {
+        "order": 1,
+        "product": 1,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 12,
+    "fields": {
+        "order": 19,
+        "product": 7,
+        "count": 3
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 13,
+    "fields": {
+        "order": 20,
+        "product": 7,
+        "count": 3
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 14,
+    "fields": {
+        "order": 21,
+        "product": 1,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 15,
+    "fields": {
+        "order": 21,
+        "product": 7,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 16,
+    "fields": {
+        "order": 22,
+        "product": 6,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 17,
+    "fields": {
+        "order": 23,
+        "product": 6,
+        "count": 3
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 18,
+    "fields": {
+        "order": 24,
+        "product": 2,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 19,
+    "fields": {
+        "order": 25,
+        "product": 1,
+        "count": 2
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 20,
+    "fields": {
+        "order": 25,
+        "product": 5,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 21,
+    "fields": {
+        "order": 26,
+        "product": 6,
+        "count": 1
+    }
+}
+]

@@ -1,0 +1,1039 @@
+2024-04-27 10:25:41,041 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 10:26:58,273 [INFO] django.utils.autoreload: /home/vboxuser/Desktop/python_django_diploma/megano/products/models.py changed, reloading.
+2024-04-27 10:26:58,790 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 10:27:02,516 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 187, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 111, in render
+    self.content = self.rendered_content
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 89, in rendered_content
+    return template.render(context, self._request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 191, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 53, in __getitem__
+    return self._session[key]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 192, in _get_session
+    self._session_cache = self.load()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 42, in load
+    s = self._get_session_from_db()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: django_session
+2024-04-27 10:27:02,947 [WARNING] django.request: Not Found: /favicon.ico
+2024-04-27 10:27:14,808 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 187, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 111, in render
+    self.content = self.rendered_content
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 89, in rendered_content
+    return template.render(context, self._request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 191, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 53, in __getitem__
+    return self._session[key]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 192, in _get_session
+    self._session_cache = self.load()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 42, in load
+    s = self._get_session_from_db()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: django_session
+2024-04-27 10:27:15,601 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 187, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 111, in render
+    self.content = self.rendered_content
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 89, in rendered_content
+    return template.render(context, self._request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 191, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 53, in __getitem__
+    return self._session[key]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 192, in _get_session
+    self._session_cache = self.load()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 42, in load
+    s = self._get_session_from_db()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: django_session
+2024-04-27 10:27:16,485 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 187, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 111, in render
+    self.content = self.rendered_content
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 89, in rendered_content
+    return template.render(context, self._request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 191, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 53, in __getitem__
+    return self._session[key]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 192, in _get_session
+    self._session_cache = self.load()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 42, in load
+    s = self._get_session_from_db()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: django_session
+2024-04-27 10:27:45,312 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 10:27:48,412 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 187, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 111, in render
+    self.content = self.rendered_content
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 89, in rendered_content
+    return template.render(context, self._request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 191, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 53, in __getitem__
+    return self._session[key]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 192, in _get_session
+    self._session_cache = self.load()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 42, in load
+    s = self._get_session_from_db()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: django_session
+2024-04-27 10:28:01,960 [ERROR] django.request: Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 187, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 261, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 230, in inner
+    if not self.has_permission(request):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 191, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 53, in __getitem__
+    return self._session[key]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 192, in _get_session
+    self._session_cache = self.load()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 42, in load
+    s = self._get_session_from_db()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: django_session
+2024-04-27 10:28:02,845 [ERROR] django.request: Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 187, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 261, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 230, in inner
+    if not self.has_permission(request):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 203, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 191, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 53, in __getitem__
+    return self._session[key]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 192, in _get_session
+    self._session_cache = self.load()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 42, in load
+    s = self._get_session_from_db()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: django_session
+2024-04-27 10:29:07,709 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 10:29:09,942 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 187, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: django_session
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 111, in render
+    self.content = self.rendered_content
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/response.py", line 89, in rendered_content
+    return template.render(context, self._request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 314, in render
+    match = condition.eval(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 877, in eval
+    return self.value.resolve(context, ignore_failures=True)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/template/base.py", line 880, in _resolve_lookup
+    current = current[bit]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 419, in _setup
+    self._wrapped = self._setupfunc()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 25, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 191, in get_user
+    user_id = _get_user_session_key(request)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 53, in __getitem__
+    return self._session[key]
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py", line 192, in _get_session
+    self._session_cache = self.load()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 42, in load
+    s = self._get_session_from_db()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 633, in get
+    num = len(clone)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: django_session
+2024-04-27 10:30:13,454 [INFO] django.utils.autoreload: /home/vboxuser/Desktop/python_django_diploma/megano/megano/settings.py changed, reloading.
+2024-04-27 10:30:13,896 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 10:30:17,357 [WARNING] django.request: Not Found: /static/frontend/assets/css/basic.css
+2024-04-27 10:30:17,363 [WARNING] django.request: Not Found: /static/frontend/assets/css/fonts.css
+2024-04-27 10:30:17,389 [WARNING] django.request: Not Found: /static/frontend/assets/plg/CountDown/countdown.js
+2024-04-27 10:30:17,402 [WARNING] django.request: Not Found: /static/frontend/assets/css/extra.css
+2024-04-27 10:30:17,421 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/fb.svg
+2024-04-27 10:30:17,425 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/tw.svg
+2024-04-27 10:30:17,451 [WARNING] django.request: Not Found: /static/frontend/assets/css/fonts.css
+2024-04-27 10:30:17,550 [WARNING] django.request: Not Found: /static/frontend/assets/css/basic.css
+2024-04-27 10:30:17,554 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/in.svg
+2024-04-27 10:30:17,555 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/pt.svg
+2024-04-27 10:30:17,598 [WARNING] django.request: Not Found: /static/frontend/assets/js/index.js
+2024-04-27 10:30:17,608 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/mail.svg
+2024-04-27 10:30:17,755 [WARNING] django.request: Not Found: /static/frontend/assets/js/app.js
+2024-04-27 10:30:17,830 [WARNING] django.request: Not Found: /static/frontend/assets/plg/jQuery/jquery-3.5.0.slim.min.js
+2024-04-27 10:30:17,863 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.form.js
+2024-04-27 10:30:17,896 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.maskedinput.min.js
+2024-04-27 10:30:17,901 [WARNING] django.request: Not Found: /static/frontend/assets/js/scripts.js
+2024-04-27 10:30:17,914 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo.png
+2024-04-27 10:30:17,922 [WARNING] django.request: Not Found: /static/frontend/assets/plg/range/ion.rangeSlider.min.js
+2024-04-27 10:30:17,946 [WARNING] django.request: Not Found: /static/frontend/assets/plg/Slider/slick.min.js
+2024-04-27 10:30:17,950 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/shipping.svg
+2024-04-27 10:30:17,953 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/cart.svg
+2024-04-27 10:30:17,962 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/allDep.svg
+2024-04-27 10:30:17,985 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/support.svg
+2024-04-27 10:30:17,988 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/moneyBack.svg
+2024-04-27 10:30:18,038 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/card/cart.svg
+2024-04-27 10:30:18,046 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/search.svg
+2024-04-27 10:30:18,096 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo_footer.png
+2024-04-27 10:30:18,101 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/fb.svg
+2024-04-27 10:30:18,219 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/tw.svg
+2024-04-27 10:30:18,222 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/in.svg
+2024-04-27 10:30:18,227 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/pt.svg
+2024-04-27 10:30:18,228 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/visa.png
+2024-04-27 10:30:18,230 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/mail.svg
+2024-04-27 10:30:18,231 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/quality.svg
+2024-04-27 10:30:18,380 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/mastercard.png
+2024-04-27 10:30:18,405 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/paypal.png
+2024-04-27 10:30:18,420 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/american.png
+2024-04-27 10:30:18,476 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/electron.png
+2024-04-27 10:30:18,482 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/delta.png
+2024-04-27 10:30:18,484 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/maestro.png
+2024-04-27 10:30:18,515 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/e.png
+2024-04-27 10:30:18,547 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/dk.png
+2024-04-27 10:30:18,711 [WARNING] django.request: Not Found: /static/frontend/favicon.ico
+2024-04-27 10:30:21,136 [WARNING] django.request: Not Found: /static/frontend/assets/css/fonts.css
+2024-04-27 10:30:21,147 [WARNING] django.request: Not Found: /static/frontend/assets/css/basic.css
+2024-04-27 10:30:21,153 [WARNING] django.request: Not Found: /static/frontend/assets/css/extra.css
+2024-04-27 10:30:21,155 [WARNING] django.request: Not Found: /static/frontend/assets/plg/CountDown/countdown.js
+2024-04-27 10:30:21,173 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/tw.svg
+2024-04-27 10:30:21,178 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/fb.svg
+2024-04-27 10:30:21,220 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/in.svg
+2024-04-27 10:30:21,283 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/pt.svg
+2024-04-27 10:30:21,327 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/mail.svg
+2024-04-27 10:30:21,392 [WARNING] django.request: Not Found: /static/frontend/assets/js/index.js
+2024-04-27 10:30:21,486 [WARNING] django.request: Not Found: /static/frontend/assets/js/app.js
+2024-04-27 10:30:21,547 [WARNING] django.request: Not Found: /static/frontend/assets/plg/jQuery/jquery-3.5.0.slim.min.js
+2024-04-27 10:30:21,567 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.maskedinput.min.js
+2024-04-27 10:30:21,572 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.form.js
+2024-04-27 10:30:21,579 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo.png
+2024-04-27 10:30:21,585 [WARNING] django.request: Not Found: /static/frontend/assets/plg/range/ion.rangeSlider.min.js
+2024-04-27 10:30:21,587 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/cart.svg
+2024-04-27 10:30:21,658 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/allDep.svg
+2024-04-27 10:30:21,705 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/support.svg
+2024-04-27 10:30:21,709 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/shipping.svg
+2024-04-27 10:30:21,715 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/search.svg
+2024-04-27 10:30:21,717 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/card/cart.svg
+2024-04-27 10:30:21,719 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/moneyBack.svg
+2024-04-27 10:30:21,721 [WARNING] django.request: Not Found: /static/frontend/assets/plg/Slider/slick.min.js
+2024-04-27 10:30:21,797 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/quality.svg
+2024-04-27 10:30:21,804 [WARNING] django.request: Not Found: /static/frontend/assets/js/scripts.js
+2024-04-27 10:30:21,807 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo_footer.png
+2024-04-27 10:30:21,810 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/fb.svg
+2024-04-27 10:30:21,815 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/tw.svg
+2024-04-27 10:30:21,818 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/in.svg
+2024-04-27 10:30:21,850 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/pt.svg
+2024-04-27 10:30:21,927 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/mail.svg
+2024-04-27 10:30:21,966 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/visa.png
+2024-04-27 10:30:21,996 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/mastercard.png
+2024-04-27 10:30:21,998 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/american.png
+2024-04-27 10:30:22,002 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/paypal.png
+2024-04-27 10:30:22,017 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/electron.png
+2024-04-27 10:30:22,064 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/maestro.png
+2024-04-27 10:30:22,100 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/delta.png
+2024-04-27 10:30:22,107 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/e.png
+2024-04-27 10:30:22,153 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/dk.png
+2024-04-27 10:30:51,053 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 10:30:56,083 [WARNING] django.request: Not Found: /static/frontend/assets/css/fonts.css
+2024-04-27 10:30:56,085 [WARNING] django.request: Not Found: /static/frontend/assets/css/basic.css
+2024-04-27 10:30:56,110 [WARNING] django.request: Not Found: /static/frontend/assets/css/extra.css
+2024-04-27 10:30:56,115 [WARNING] django.request: Not Found: /static/frontend/assets/plg/CountDown/countdown.js
+2024-04-27 10:30:56,132 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/fb.svg
+2024-04-27 10:30:56,146 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/tw.svg
+2024-04-27 10:30:56,148 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/in.svg
+2024-04-27 10:30:56,162 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/pt.svg
+2024-04-27 10:30:56,234 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/mail.svg
+2024-04-27 10:30:56,246 [WARNING] django.request: Not Found: /static/frontend/assets/js/index.js
+2024-04-27 10:30:56,452 [WARNING] django.request: Not Found: /static/frontend/assets/js/app.js
+2024-04-27 10:30:56,463 [WARNING] django.request: Not Found: /static/frontend/assets/plg/jQuery/jquery-3.5.0.slim.min.js
+2024-04-27 10:30:56,467 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.form.js
+2024-04-27 10:30:56,469 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.maskedinput.min.js
+2024-04-27 10:30:56,473 [WARNING] django.request: Not Found: /static/frontend/assets/plg/range/ion.rangeSlider.min.js
+2024-04-27 10:30:56,483 [WARNING] django.request: Not Found: /static/frontend/assets/plg/Slider/slick.min.js
+2024-04-27 10:30:56,542 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/shipping.svg
+2024-04-27 10:30:56,616 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/allDep.svg
+2024-04-27 10:30:56,618 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/cart.svg
+2024-04-27 10:30:56,621 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/moneyBack.svg
+2024-04-27 10:30:56,627 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo.png
+2024-04-27 10:30:56,634 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/support.svg
+2024-04-27 10:30:56,635 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/search.svg
+2024-04-27 10:30:56,719 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/card/cart.svg
+2024-04-27 10:30:56,723 [WARNING] django.request: Not Found: /static/frontend/assets/js/scripts.js
+2024-04-27 10:30:56,760 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/quality.svg
+2024-04-27 10:30:56,765 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo_footer.png
+2024-04-27 10:30:56,767 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/tw.svg
+2024-04-27 10:30:56,770 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/fb.svg
+2024-04-27 10:30:56,772 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/in.svg
+2024-04-27 10:30:56,869 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/pt.svg
+2024-04-27 10:30:56,889 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/mail.svg
+2024-04-27 10:30:56,892 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/mastercard.png
+2024-04-27 10:30:56,897 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/paypal.png
+2024-04-27 10:30:56,904 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/visa.png
+2024-04-27 10:30:56,908 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/american.png
+2024-04-27 10:30:56,964 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/electron.png
+2024-04-27 10:30:57,041 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/maestro.png
+2024-04-27 10:30:57,086 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/delta.png
+2024-04-27 10:30:57,098 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/dk.png
+2024-04-27 10:30:57,101 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/e.png
+2024-04-27 10:32:40,739 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 10:32:44,278 [WARNING] django.request: Not Found: /static/frontend/assets/css/basic.css
+2024-04-27 10:32:44,280 [WARNING] django.request: Not Found: /static/frontend/assets/css/fonts.css
+2024-04-27 10:32:44,307 [WARNING] django.request: Not Found: /static/frontend/assets/css/extra.css
+2024-04-27 10:32:44,324 [WARNING] django.request: Not Found: /static/frontend/assets/plg/CountDown/countdown.js
+2024-04-27 10:32:44,353 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/fb.svg
+2024-04-27 10:32:44,368 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/tw.svg
+2024-04-27 10:32:44,453 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/in.svg
+2024-04-27 10:32:44,522 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/mail.svg
+2024-04-27 10:32:44,541 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/pt.svg
+2024-04-27 10:32:44,585 [WARNING] django.request: Not Found: /static/frontend/assets/js/index.js
+2024-04-27 10:32:44,623 [WARNING] django.request: Not Found: /static/frontend/assets/js/app.js
+2024-04-27 10:32:44,650 [WARNING] django.request: Not Found: /static/frontend/assets/plg/jQuery/jquery-3.5.0.slim.min.js
+2024-04-27 10:32:44,710 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/allDep.svg
+2024-04-27 10:32:44,737 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.form.js
+2024-04-27 10:32:44,749 [WARNING] django.request: Not Found: /static/frontend/assets/plg/range/ion.rangeSlider.min.js
+2024-04-27 10:32:44,755 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/search.svg
+2024-04-27 10:32:44,768 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/card/cart.svg
+2024-04-27 10:32:44,783 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.maskedinput.min.js
+2024-04-27 10:32:44,785 [WARNING] django.request: Not Found: /static/frontend/assets/plg/Slider/slick.min.js
+2024-04-27 10:32:44,801 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo.png
+2024-04-27 10:32:44,834 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/support.svg
+2024-04-27 10:32:44,835 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/moneyBack.svg
+2024-04-27 10:32:44,853 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/cart.svg
+2024-04-27 10:32:44,861 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/shipping.svg
+2024-04-27 10:32:44,873 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/pt.svg
+2024-04-27 10:32:44,901 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/mail.svg
+2024-04-27 10:32:44,904 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo_footer.png
+2024-04-27 10:32:44,921 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/in.svg
+2024-04-27 10:32:44,930 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/tw.svg
+2024-04-27 10:32:44,961 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/fb.svg
+2024-04-27 10:32:45,015 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/quality.svg
+2024-04-27 10:32:45,071 [WARNING] django.request: Not Found: /static/frontend/assets/js/scripts.js
+2024-04-27 10:32:45,083 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/mastercard.png
+2024-04-27 10:32:45,086 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/visa.png
+2024-04-27 10:32:45,094 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/paypal.png
+2024-04-27 10:32:45,098 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/american.png
+2024-04-27 10:32:45,136 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/electron.png
+2024-04-27 10:32:45,189 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/delta.png
+2024-04-27 10:32:45,200 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/dk.png
+2024-04-27 10:32:45,211 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/maestro.png
+2024-04-27 10:32:45,230 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/e.png
+2024-04-27 10:35:59,065 [INFO] django.utils.autoreload: /home/vboxuser/Desktop/python_django_diploma/.venv/lib/python3.10/site-packages/frontend/__init__.py changed, reloading.
+2024-04-27 10:35:59,570 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 10:36:24,974 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 10:36:29,735 [WARNING] django.request: Not Found: /static/frontend/assets/css/fonts.css
+2024-04-27 10:36:29,737 [WARNING] django.request: Not Found: /static/frontend/assets/css/basic.css
+2024-04-27 10:36:29,760 [WARNING] django.request: Not Found: /static/frontend/assets/css/extra.css
+2024-04-27 10:36:29,794 [WARNING] django.request: Not Found: /static/frontend/assets/plg/CountDown/countdown.js
+2024-04-27 10:36:29,805 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/fb.svg
+2024-04-27 10:36:29,810 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/tw.svg
+2024-04-27 10:36:29,845 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/in.svg
+2024-04-27 10:36:29,862 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/pt.svg
+2024-04-27 10:36:29,934 [WARNING] django.request: Not Found: /static/frontend/assets/css/fonts.css
+2024-04-27 10:36:29,936 [WARNING] django.request: Not Found: /static/frontend/assets/css/extra.css
+2024-04-27 10:36:29,940 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/mail.svg
+2024-04-27 10:36:29,945 [WARNING] django.request: Not Found: /static/frontend/assets/css/basic.css
+2024-04-27 10:36:29,943 [WARNING] django.request: Not Found: /static/frontend/assets/js/index.js
+2024-04-27 10:36:30,097 [WARNING] django.request: Not Found: /static/frontend/assets/js/app.js
+2024-04-27 10:36:30,151 [WARNING] django.request: Not Found: /static/frontend/assets/plg/jQuery/jquery-3.5.0.slim.min.js
+2024-04-27 10:36:30,184 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.form.js
+2024-04-27 10:36:30,290 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.maskedinput.min.js
+2024-04-27 10:36:30,296 [WARNING] django.request: Not Found: /static/frontend/assets/plg/range/ion.rangeSlider.min.js
+2024-04-27 10:36:30,299 [WARNING] django.request: Not Found: /static/frontend/assets/plg/Slider/slick.min.js
+2024-04-27 10:36:30,305 [WARNING] django.request: Not Found: /static/frontend/assets/js/scripts.js
+2024-04-27 10:36:30,311 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo.png
+2024-04-27 10:36:30,336 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/cart.svg
+2024-04-27 10:36:30,345 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/allDep.svg
+2024-04-27 10:36:30,349 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/search.svg
+2024-04-27 10:36:30,353 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/card/cart.svg
+2024-04-27 10:36:30,383 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/shipping.svg
+2024-04-27 10:36:30,390 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/moneyBack.svg
+2024-04-27 10:36:30,403 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/support.svg
+2024-04-27 10:36:30,422 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/quality.svg
+2024-04-27 10:36:30,441 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo_footer.png
+2024-04-27 10:36:30,449 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/in.svg
+2024-04-27 10:36:30,454 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/tw.svg
+2024-04-27 10:36:30,462 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/pt.svg
+2024-04-27 10:36:30,545 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/mail.svg
+2024-04-27 10:36:30,548 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/fb.svg
+2024-04-27 10:36:30,550 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/visa.png
+2024-04-27 10:36:30,589 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/mastercard.png
+2024-04-27 10:36:30,591 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/paypal.png
+2024-04-27 10:36:30,597 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/american.png
+2024-04-27 10:36:30,610 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/electron.png
+2024-04-27 10:36:30,646 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/maestro.png
+2024-04-27 10:36:30,649 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/delta.png
+2024-04-27 10:36:30,661 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/e.png
+2024-04-27 10:36:30,664 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/dk.png
+2024-04-27 10:46:10,653 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 10:49:07,499 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-27 10:49:11,711 [WARNING] django.request: Not Found: /static/frontend/assets/css/basic.css
+2024-04-27 10:49:11,717 [WARNING] django.request: Not Found: /static/frontend/assets/css/fonts.css
+2024-04-27 10:49:11,734 [WARNING] django.request: Not Found: /static/frontend/assets/css/extra.css
+2024-04-27 10:49:11,742 [WARNING] django.request: Not Found: /static/frontend/assets/plg/CountDown/countdown.js
+2024-04-27 10:49:11,753 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/fb.svg
+2024-04-27 10:49:11,756 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/tw.svg
+2024-04-27 10:49:11,860 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/in.svg
+2024-04-27 10:49:11,862 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/pt.svg
+2024-04-27 10:49:11,891 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialHeader/mail.svg
+2024-04-27 10:49:11,905 [WARNING] django.request: Not Found: /static/frontend/assets/js/index.js
+2024-04-27 10:49:11,973 [WARNING] django.request: Not Found: /static/frontend/assets/js/app.js
+2024-04-27 10:49:12,003 [WARNING] django.request: Not Found: /static/frontend/assets/plg/jQuery/jquery-3.5.0.slim.min.js
+2024-04-27 10:49:12,105 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.form.js
+2024-04-27 10:49:12,113 [WARNING] django.request: Not Found: /static/frontend/assets/plg/form/jquery.maskedinput.min.js
+2024-04-27 10:49:12,116 [WARNING] django.request: Not Found: /static/frontend/assets/js/scripts.js
+2024-04-27 10:49:12,119 [WARNING] django.request: Not Found: /static/frontend/assets/plg/range/ion.rangeSlider.min.js
+2024-04-27 10:49:12,121 [WARNING] django.request: Not Found: /static/frontend/assets/plg/Slider/slick.min.js
+2024-04-27 10:49:12,168 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo.png
+2024-04-27 10:49:12,229 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/card/cart.svg
+2024-04-27 10:49:12,243 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/shipping.svg
+2024-04-27 10:49:12,245 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/moneyBack.svg
+2024-04-27 10:49:12,249 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/search.svg
+2024-04-27 10:49:12,273 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/allDep.svg
+2024-04-27 10:49:12,286 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/support.svg
+2024-04-27 10:49:12,289 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/cart.svg
+2024-04-27 10:49:12,410 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/advantages/quality.svg
+2024-04-27 10:49:12,411 [WARNING] django.request: Not Found: /static/frontend/assets/img/logo_footer.png
+2024-04-27 10:49:12,425 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/in.svg
+2024-04-27 10:49:12,430 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/fb.svg
+2024-04-27 10:49:12,452 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/pt.svg
+2024-04-27 10:49:12,459 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/tw.svg
+2024-04-27 10:49:12,539 [WARNING] django.request: Not Found: /static/frontend/assets/img/icons/socialFooter/mail.svg
+2024-04-27 10:49:12,541 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/mastercard.png
+2024-04-27 10:49:12,544 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/visa.png
+2024-04-27 10:49:12,545 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/paypal.png
+2024-04-27 10:49:12,564 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/american.png
+2024-04-27 10:49:12,566 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/electron.png
+2024-04-27 10:49:12,646 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/maestro.png
+2024-04-27 10:49:12,679 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/delta.png
+2024-04-27 10:49:12,686 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/e.png
+2024-04-27 10:49:12,701 [WARNING] django.request: Not Found: /static/frontend/assets/img/payments/dk.png
