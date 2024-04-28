@@ -1,0 +1,153 @@
+[
+{
+    "model": "orders.order",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "createdAt": "2024-04-23T09:17:17.324Z",
+        "deliveryType": "ordinary",
+        "paymentType": "online",
+        "totalCost": "900.00",
+        "status": "accepted",
+        "city": "New York",
+        "address": "Park Street 901",
+        "products": [
+            1
+        ]
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 25,
+    "fields": {
+        "user": 2,
+        "createdAt": "2024-04-26T17:15:31.640Z",
+        "deliveryType": "",
+        "paymentType": "online",
+        "totalCost": "3500.00",
+        "status": "accepted",
+        "city": "London",
+        "address": "Baker Street 221b",
+        "products": [
+            1,
+            5
+        ]
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 26,
+    "fields": {
+        "user": 2,
+        "createdAt": "2024-04-26T17:17:09.024Z",
+        "deliveryType": "",
+        "paymentType": "online",
+        "totalCost": "800.00",
+        "status": "accepted",
+        "city": "London",
+        "address": "Baker Street 221b",
+        "products": [
+            6
+        ]
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 1,
+    "fields": {
+        "order": 1,
+        "product": 1,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 12,
+    "fields": {
+        "order": 19,
+        "product": 7,
+        "count": 3
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 13,
+    "fields": {
+        "order": 20,
+        "product": 7,
+        "count": 3
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 14,
+    "fields": {
+        "order": 21,
+        "product": 1,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 15,
+    "fields": {
+        "order": 21,
+        "product": 7,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 16,
+    "fields": {
+        "order": 22,
+        "product": 6,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 17,
+    "fields": {
+        "order": 23,
+        "product": 6,
+        "count": 3
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 18,
+    "fields": {
+        "order": 24,
+        "product": 2,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 19,
+    "fields": {
+        "order": 25,
+        "product": 1,
+        "count": 2
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 20,
+    "fields": {
+        "order": 25,
+        "product": 5,
+        "count": 1
+    }
+},
+{
+    "model": "orders.countproducts",
+    "pk": 21,
+    "fields": {
+        "order": 26,
+        "product": 6,
+        "count": 1
+    }
+}
+]

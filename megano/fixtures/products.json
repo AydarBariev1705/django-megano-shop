@@ -1,0 +1,689 @@
+[
+{
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+        "title": "Phone",
+        "parent": null,
+        "favourite": false
+    }
+},
+{
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+        "title": "Smartphone",
+        "parent": 1,
+        "favourite": true
+    }
+},
+{
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+        "title": "PC",
+        "parent": null,
+        "favourite": true
+    }
+},
+{
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+        "title": "Laptop",
+        "parent": 3,
+        "favourite": true
+    }
+},
+{
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+        "title": "TV",
+        "parent": null,
+        "favourite": false
+    }
+},
+{
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+        "title": "Smart TV",
+        "parent": 5,
+        "favourite": false
+    }
+},
+{
+    "model": "products.category",
+    "pk": 7,
+    "fields": {
+        "title": "Gaming PC",
+        "parent": 3,
+        "favourite": false
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "src": "categories/category_1/ph_9yrGB9j.png"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 2,
+    "fields": {
+        "category": 2,
+        "src": "categories/category_1/subcategory_2/sm.jpeg"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 3,
+    "fields": {
+        "category": 3,
+        "src": "categories/category_3/images.jpeg"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 4,
+    "fields": {
+        "category": 4,
+        "src": "categories/category_3/subcategory_4/1213.jpg"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 5,
+    "fields": {
+        "category": 5,
+        "src": "categories/category_5/Tv-cat_S5rnjGq.jpg"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 6,
+    "fields": {
+        "category": 6,
+        "src": "categories/category_5/subcategory_6/smartTV.jpg"
+    }
+},
+{
+    "model": "products.categoryimage",
+    "pk": 8,
+    "fields": {
+        "category": 7,
+        "src": "categories/category_3/subcategory_7/123131.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "Iphone 15",
+        "description": "New Iphone 15 Description",
+        "fullDescription": "New Iphone 15 FullDescription",
+        "price": "1000.00",
+        "count": 100,
+        "date": "2024-04-22T12:30:54.097Z",
+        "freeDelivery": true,
+        "limited_edition": true,
+        "rating": "4.50",
+        "archived": false,
+        "category": 2
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "MacBook Air 13",
+        "description": "MacBook Air 13  Description",
+        "fullDescription": "MacBook Air 13  FullDescription",
+        "price": "2000.00",
+        "count": 95,
+        "date": "2024-04-22T20:08:09.299Z",
+        "freeDelivery": true,
+        "limited_edition": false,
+        "rating": "5.00",
+        "archived": false,
+        "category": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "Redmi Laptop",
+        "description": "Redmi Laptop  Description",
+        "fullDescription": "Redmi Laptop  FullDescription",
+        "price": "1300.00",
+        "count": 54,
+        "date": "2024-04-23T15:33:26.618Z",
+        "freeDelivery": true,
+        "limited_edition": false,
+        "rating": "5.00",
+        "archived": false,
+        "category": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "TV 1",
+        "description": "TV 1 Description",
+        "fullDescription": "TV 1 FullDescription",
+        "price": "1100.00",
+        "count": 11,
+        "date": "2024-04-23T15:35:31.388Z",
+        "freeDelivery": false,
+        "limited_edition": false,
+        "rating": "5.00",
+        "archived": false,
+        "category": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "title": "Samsung TV",
+        "description": "Samsung TV Description",
+        "fullDescription": "Samsung TV FullDescription",
+        "price": "1500.00",
+        "count": 18,
+        "date": "2024-04-23T15:36:18.045Z",
+        "freeDelivery": false,
+        "limited_edition": true,
+        "rating": "5.00",
+        "archived": false,
+        "category": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "title": "Smartphone",
+        "description": "Smartphone  Description",
+        "fullDescription": "Smartphone  FullDescription",
+        "price": "600.00",
+        "count": 98,
+        "date": "2024-04-23T15:39:40.696Z",
+        "freeDelivery": true,
+        "limited_edition": false,
+        "rating": "0.00",
+        "archived": false,
+        "category": 2
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "title": "Gaming PC Monster",
+        "description": "Gaming PC Monster Description",
+        "fullDescription": "Gaming PC Monster FullDescription",
+        "price": "3000.00",
+        "count": 12,
+        "date": "2024-04-23T16:03:23.033Z",
+        "freeDelivery": false,
+        "limited_edition": true,
+        "rating": "4.00",
+        "archived": false,
+        "category": 7
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "title": "Gaming PC Alienware",
+        "description": "Gaming PC Alienware Description",
+        "fullDescription": "Gaming PC Alienware FullDescription",
+        "price": "2900.00",
+        "count": 15,
+        "date": "2024-04-23T16:04:12.748Z",
+        "freeDelivery": false,
+        "limited_edition": true,
+        "rating": "5.00",
+        "archived": false,
+        "category": 7
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "title": "Gaming PC",
+        "description": "Gaming PC Description",
+        "fullDescription": "Gaming PC FullDescription",
+        "price": "2500.00",
+        "count": 55,
+        "date": "2024-04-23T16:05:03.391Z",
+        "freeDelivery": true,
+        "limited_edition": false,
+        "rating": "5.00",
+        "archived": false,
+        "category": 7
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 1,
+    "fields": {
+        "name": "Iphone",
+        "product": 1,
+        "image": "products/product_1/11_6CN7F9t.jpeg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 29,
+    "fields": {
+        "name": "Iphone 15-2",
+        "product": 1,
+        "image": "products/product_1/iphone2.jpeg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 30,
+    "fields": {
+        "name": "MacBook-1",
+        "product": 2,
+        "image": "products/product_2/macbook.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 31,
+    "fields": {
+        "name": "MacBook-2",
+        "product": 2,
+        "image": "products/product_2/mac2.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 32,
+    "fields": {
+        "name": "Redmi Laptop 1",
+        "product": 3,
+        "image": "products/product_3/laptop2.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 33,
+    "fields": {
+        "name": "TV-1",
+        "product": 4,
+        "image": "products/product_4/tv12.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 34,
+    "fields": {
+        "name": "TV-2",
+        "product": 4,
+        "image": "products/product_4/tv1.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 35,
+    "fields": {
+        "name": "Samsung TV-1",
+        "product": 5,
+        "image": "products/product_5/tv2.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 36,
+    "fields": {
+        "name": "Samsung TV-2",
+        "product": 5,
+        "image": "products/product_5/tv22.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 37,
+    "fields": {
+        "name": "Smartphone",
+        "product": 6,
+        "image": "products/product_6/p2.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 38,
+    "fields": {
+        "name": "Monster-1",
+        "product": 7,
+        "image": "products/product_7/gaming2.png"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 39,
+    "fields": {
+        "name": "Monster-2",
+        "product": 7,
+        "image": "products/product_7/gaming.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 40,
+    "fields": {
+        "name": "PC-1",
+        "product": 9,
+        "image": "products/product_9/PC.jpeg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 41,
+    "fields": {
+        "name": "Alienware-1",
+        "product": 8,
+        "image": "products/product_8/vlpoO0NEH5E__копия.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 42,
+    "fields": {
+        "name": "Alienware-2",
+        "product": 8,
+        "image": "products/product_8/N7TkBrBHPts.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 43,
+    "fields": {
+        "name": "Alienware-3",
+        "product": 8,
+        "image": "products/product_8/vlpoO0NEH5E.jpg"
+    }
+},
+{
+    "model": "products.productimage",
+    "pk": 44,
+    "fields": {
+        "name": "Alienware-4",
+        "product": 8,
+        "image": "products/product_8/pYvBCYqlHBg.jpg"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "name": "Color",
+        "value": "White"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 2,
+    "fields": {
+        "product": 5,
+        "name": "Display",
+        "value": "OLED"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 3,
+    "fields": {
+        "product": 5,
+        "name": "Color",
+        "value": "Black"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 4,
+    "fields": {
+        "product": 2,
+        "name": "CPU",
+        "value": "M3"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 5,
+    "fields": {
+        "product": 2,
+        "name": "SSD",
+        "value": "256 GB"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 6,
+    "fields": {
+        "product": 3,
+        "name": "RAM",
+        "value": "16 GB"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 7,
+    "fields": {
+        "product": 3,
+        "name": "CPU",
+        "value": "Core I3"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 8,
+    "fields": {
+        "product": 6,
+        "name": "OS",
+        "value": "Android"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 9,
+    "fields": {
+        "product": 8,
+        "name": "RAM",
+        "value": "32 GB"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 10,
+    "fields": {
+        "product": 8,
+        "name": "CPU",
+        "value": "I7"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 11,
+    "fields": {
+        "product": 7,
+        "name": "CPU",
+        "value": "I9"
+    }
+},
+{
+    "model": "products.productspecification",
+    "pk": 12,
+    "fields": {
+        "product": 9,
+        "name": "CPU",
+        "value": "I5"
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 1,
+    "fields": {
+        "name": "Iphone",
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 2,
+    "fields": {
+        "name": "Laptop",
+        "tags": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 3,
+    "fields": {
+        "name": "Smartphone",
+        "tags": [
+            6
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 4,
+    "fields": {
+        "name": "Smart TV",
+        "tags": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 5,
+    "fields": {
+        "name": "Android",
+        "tags": [
+            6
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 6,
+    "fields": {
+        "name": "IOS",
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 7,
+    "fields": {
+        "name": "Gaming",
+        "tags": [
+            7,
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "products.tag",
+    "pk": 8,
+    "fields": {
+        "name": "PC",
+        "tags": [
+            7,
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "products.review",
+    "pk": 1,
+    "fields": {
+        "author": "Bob",
+        "email": "Bob@mail.com",
+        "text": "Nice Phone",
+        "rate": 5,
+        "date": "2024-04-22T12:33:17.236Z",
+        "product": 1
+    }
+},
+{
+    "model": "products.review",
+    "pk": 2,
+    "fields": {
+        "author": "Annoying Orange",
+        "email": "no-reply@mail.ru",
+        "text": "rewrewrwerewrwerwerewrwerwer",
+        "rate": 4,
+        "date": "2024-04-23T10:22:12.529Z",
+        "product": 1
+    }
+},
+{
+    "model": "products.review",
+    "pk": 3,
+    "fields": {
+        "author": "John",
+        "email": "John123@john.com",
+        "text": "I bought this last month.\nNothing to regret. I recommend",
+        "rate": 5,
+        "date": "2024-04-24T13:31:25.857Z",
+        "product": 2
+    }
+},
+{
+    "model": "products.review",
+    "pk": 4,
+    "fields": {
+        "author": "Ivan",
+        "email": "Ivanko1222@mail.com",
+        "text": "Nice!",
+        "rate": 5,
+        "date": "2024-04-24T13:47:56.891Z",
+        "product": 3
+    }
+},
+{
+    "model": "products.sale",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "salePrice": "900.00",
+        "dateFrom": "2024-04-22",
+        "dateTo": "2024-04-30"
+    }
+},
+{
+    "model": "products.sale",
+    "pk": 2,
+    "fields": {
+        "product": 4,
+        "salePrice": "800.00",
+        "dateFrom": "2024-04-16",
+        "dateTo": "2024-05-22"
+    }
+}
+]

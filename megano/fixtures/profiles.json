@@ -1,0 +1,57 @@
+[
+{
+    "model": "profiles.profile",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "fullName": "Robert",
+        "email": "qwer@qwer.com",
+        "phone": "89076521490",
+        "avatar": "users/user_1/admin.png"
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "fullName": "Samuel",
+        "email": "Samuel@email.com",
+        "phone": "89065421569",
+        "avatar": "users/user_2/boy.png"
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 5,
+    "fields": {
+        "user": 5,
+        "fullName": "Lolita",
+        "email": "Lolemail@email.com",
+        "phone": "89777777774",
+        "avatar": "users/user_5/lola.png"
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 6,
+    "fields": {
+        "user": 6,
+        "fullName": "John",
+        "email": "",
+        "phone": "",
+        "avatar": "users/user_6/adminava.jpg"
+    }
+},
+{
+    "model": "profiles.profile",
+    "pk": 7,
+    "fields": {
+        "user": 7,
+        "fullName": "Nicole",
+        "email": "",
+        "phone": "",
+        "avatar": "users/user_7/nick.png"
+    }
+}
+]
