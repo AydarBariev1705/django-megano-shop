@@ -12,7 +12,7 @@
 3. Установка frontend:
     * `pip install ./dist/diploma-frontend-0.6.tar.gz` - установка фронтенда
 4. Создание бд и загрузка фикстур:
-    * `cd ../megano && python manage.py make migrations` - создание миграций
+    * `cd megano && python manage.py make migrations` - создание миграций
     * `python manage.py migrate` - миграция 
     * `python manage.py loaddata ./fixtures/* ` - установка фикстур
 5. `python manage.py runserver` - запуск сервера
